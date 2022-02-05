@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="1st.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+        <div class="content">
+      <div class="left-side">
+      
+
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">Parul university,vadodara,Gujarat</div>
+          
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <a style="text-decoration:none"  href="tel:6353124568"><div class="text-one">+91 6356144561</div>
+          </a>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <a style="text-decoration:none"  href="mailto:parthmi7278@gmail.com"><div class="text-one">sahilgandhi8402@gmail.com</div>
+            </a>
+        </div>
+        
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        
+      <form action="contact.php" method="post">
+        <div class="input-box">
+          <input type="text" name="uname" placeholder="Enter your Enrollment number" id="uname" required/>
+          
+        </div>
+        <div class="input-box">
+          <input type="text" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="input-box">
+            <textarea rows="5" cols="25" name="message" id="message" placeholder="Any query" style="height: 150px ;" required></textarea>
+        </div><center>
+        <div class="input-box message-box">
+          
+        </div><button class="btn btn-danger" type="button" onclick="history.back()">Back</button>
+        <input  class="btn btn-outline-success" type="submit" value="Submit">
+        </div></center>
+      </form>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
